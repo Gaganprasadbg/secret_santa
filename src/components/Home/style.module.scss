@@ -1,7 +1,10 @@
 .bg{
-    background-image: url('../../../public/bgimages/bg.jpg');
+    background-image: url('../../../public/bgimages/social.7c97dc1f.jpg');
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat;
-    
+    @media (max-width: 767px) {
+        background-size: auto;
+        background-position: center;
+    }
 }
