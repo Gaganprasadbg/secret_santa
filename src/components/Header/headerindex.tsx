@@ -18,9 +18,7 @@ const handelclick=()=>{
         </div>
         <div>
           <button className='' onClick={handelclick}>
-        Click Here
-          
-         
+           Click Here
           </button>
             
         </div>
