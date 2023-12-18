@@ -45,8 +45,8 @@ const cluePage = () => {
   const handelhint=()=>{
     setHint(true);
   }
-  return (
-    <div style={{ backgroundColor: "#a895fd", height: "100vh" }}>
+  return ( 
+    <div className="h-100% md:h-100vh" style={{ backgroundColor: "#a895fd", height: "100vh" }}>
       <div
         className="max-w-[1200px] mx-auto relative top-[10%]"
         onClick={handelback}
@@ -82,7 +82,7 @@ const cluePage = () => {
           </div>
         </div>
         <div
-          className="flex flex-col justify-center items-center rounded-lg border-2 border-solid  w-[400px] gap-4 py-12 px-5  m-6"
+          className="flex flex-col justify-center items-center rounded-lg border-2 border-solid max-w-[400px] gap-4 py-12 px-5  m-6"
           style={{ backgroundColor: "rgba(255, 255, 255, 0.1)" }}
         >
           <div className="flex flex-col w-full flex-auto max-w-lg gap-2 ">

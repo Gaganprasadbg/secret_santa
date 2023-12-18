@@ -3,9 +3,14 @@
     background-position: center; 
     background-repeat: no-repeat;
     background-size: cover;
-    @media (max-width: 767px) {
+   
+}
+@media (max-width: 767px) {
+    .bg {
+        background-image: url('../../../public/bgimages/normalsanta.png');
         background-size: cover;
         background-position: center;
-        height: 100vh;
-    }
+        background-repeat: no-repeat;
+       
+      }
 }
